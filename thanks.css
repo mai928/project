@@ -1,0 +1,63 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main .img{
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding:0px 10px 10px;
+
+}
+.main .p{
+
+    font:26px Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#333333;
+    padding:30px 30px 30px;
+  }
+
+  .main .but{
+  
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: block;
+
+  }
+  button{
+      border: none;
+      width: 150px;
+      height: 50px;
+      padding: 5px;
+    margin: 0;
+    position: absolute;
+    top: 66%;
+    left: 46%;
+    background-color:#b3479b;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+  }
+  .back:hover{
+    background:#dfbfd8;
+    font-weight: bold;
+
+ 
+
+  }
+  button a{
+
+    text-decoration: none;
+    font-size: medium;
+      color: black;
+
+  }
+
+ 
+  

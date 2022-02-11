@@ -1,0 +1,536 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(to top,
+    rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%) ,url(tt.jpg);
+    background-position: center;
+    background-size:cover;
+
+}
+
+.bar
+{
+    width: 1200px;
+    height: 75;
+    margin: auto;
+}
+
+.logo {
+    float:left;
+    width: 200px;
+    height: 70;
+}
+
+.sound
+{
+    font-family:Cursive;
+    font-style: italic;
+    color:#d700a8;
+    font-size: 35px;
+    margin-top: 5px;
+    padding-left:20 ;
+    padding-top: 10px;
+}
+
+.menu
+{
+    width: 400px;
+    float:left;
+    height: 70px;
+
+}
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #d700a8 ;
+}
+.search
+{
+    width:330px;
+    float:left;
+    margin-left: 270px;
+}
+
+.srch
+{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #d700a8;
+        border-right: none;
+        margin-top: 13px;
+        color: #fff;
+        font-size: 15px;
+        /* border-top-left-radius: 5px; */
+        border-bottom-left-radius: 15px;
+        float: left;
+    
+}
+
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background:#d700a8 ;
+    border: 2px solid #d700a8;
+    margin-top: 13px;
+    color: #fff;
+    /* border-bottom-right-radius: 8px; */
+    border-top-right-radius: 15px;
+    font-size: 15px;
+
+
+}
+.btn:hover
+{
+ color:#fff;
+ 
+}
+.srch:focus
+{
+    outline:none;
+}
+.srch:hover
+{
+    outline:none;
+}
+
+.content{
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+
+}
+
+.pa
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+}
+
+.content h1
+{
+    margin-top:150px ;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+.content .join
+{
+width: 160px;
+height: 40px;
+background: #d700a8;
+border: none;
+font-size: 18px;
+margin-bottom: 10px;
+margin-left: 20px;
+border-radius: 20px;
+cursor: pointer;
+transition: .4s ease;
+
+
+}
+.content .join a
+{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.join:hover
+{
+  background-color: #fff;
+  font-weight: bold;
+  transition: .3s ease;
+
+}
+
+.form
+{
+  width: 250px;
+  height: 380px;
+  position: absolute;
+  background: linear-gradient(to top,
+  rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%);
+  top:-20px;
+  left:800px;
+  border-radius: 20px;
+  padding:25px;
+
+}
+.form h2
+{
+    width: 220px;
+    text-align: center;
+    font-family:cursive ;
+    font-size: 22px;
+    color: #d700a8;
+    background-color: #fff;
+    border-radius:10px;
+    padding: 8px;
+    margin: 2px;
+}
+.form input
+{
+    width:240px;
+    height: 35px;
+    font-size: 15px;
+    background: transparent;
+    border-bottom: 1px solid #d700a8;
+    color: #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 30px;
+    font-family: cursive;
+    letter-spacing: 1px;
+
+
+}
+.form input:focus
+{
+    outline: none;
+}
+::placeholder
+{
+    color: #fff;
+
+}
+.login
+{
+ width: 220px;
+height: 40px;
+background: #d700a8;
+border: none;
+font-size: 18px;
+font-weight: bold;
+margin-top: 25px;
+margin-bottom: 10px;
+margin-left: 10px;
+border-radius:10px;
+cursor: pointer;
+transition: .4s ease;
+}
+.login a
+{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.login:hover
+{
+    background: #fff;
+    font-weight: bold;
+    color: #d700a8;
+}
+.form .pp
+{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.pp a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #d700a8;
+}
+.lo
+{
+    margin-top: 5px;
+    font-size: 13px;  
+    text-align: center;
+    font-family: cursive;
+}
+
+.part2 .grad
+{
+  width:100%;
+  height:350px;
+  position:absolute;
+  display: block;
+  background: linear-gradient(to top,
+  rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%);
+  bottom: -1395; 
+   
+
+}
+
+.grad .first
+{
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 70px;
+}
+.grad .second
+{
+    align-items: center;
+    margin-left: 910px;
+    margin-top: 40px;
+}
+
+ .sfree {
+
+    border-color: #fff;
+    background-color: black;
+    position: absolute;
+    width: 160px;
+height: 70px;
+font-size: 15px;
+border-width: 1px;
+margin-left: 160px;
+border-radius: 4px;
+top: 150;
+
+} 
+.sfree a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+
+
+} 
+
+
+
+ .catagory{
+   height: 400px;
+   background-color: #fff;
+ }
+.catagory h2{
+    margin-left: 105px;
+    margin-top: 10px;
+   
+} 
+
+ .catagory .catImage{
+
+    display: flex;
+    align-content: center;
+    position:relative;
+    margin-left: 100px;
+    float: left;
+    margin-top: 30px;
+    background-position: center;
+
+ }
+
+ .catImage .walla{
+    
+    width: 187px;
+    height: 142px;
+    background-size: cover;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('walla.jpg');
+
+ }
+ .walla h4 a{
+     
+    margin-top: 60px;
+     display: block;
+     color: white;
+    text-align: center;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .catImage .whoose{
+   
+    width: 187px;
+    height: 142px;
+    background-size: cover;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('whoosh.jpg');
+     content: " ";
+ }
+ .whoose h4 a{
+     
+    margin-top: 60px;
+     display: block;
+     color: white;
+    text-align: center;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+ .wind{
+    
+    width: 187px;
+    height: 142px;
+    background-size: cover;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('wind.jpg');
+   
+ }
+ .wind h4 a{
+     
+    margin-top: 60px;
+     display: block;
+     color: white;
+    text-align: center;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+
+ .steps{
+    
+    width: 187px;
+    height: 142px;
+    background-size: cover;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('steps.jpg');
+   
+ }
+
+ .steps h4 a{
+     
+    margin-top: 60px;
+     display: block;
+     color: white;
+    text-align: center;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+ .cartoon{
+    
+    width: 187px;
+    height: 142px;
+    background-size: cover;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('cartoon.jpg');
+   
+ }
+ .cartoon h4 a{
+     
+    margin-top: 60px;
+     display: block;
+     color: white;
+    text-align: center;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .drons{
+    
+    width: 187px;
+    height: 142px;
+    background-size: cover;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to bottom, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('drones.jpg');
+   
+ }
+ .drons h4 a{
+     
+    margin-top: 60px;
+     display: block;
+     color: white;
+    text-align: center;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+
+.inner .interface{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-top: 290px;
+    margin-left: 100px;
+    background-size: cover;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to top, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('interface.jpg');
+   
+}
+.inner .Am{
+    width: 600px;
+    height:300px;
+    display: block;
+    margin-right: 200px;
+    top: -300px;
+    position: relative;
+    float: right;
+    background-size: cover;
+     border-radius: 10px;
+     background-image:
+     linear-gradient(to top, rgba(0, 0, 0, 0.5)50% ,rgba(0, 0, 0, 0.5)50%),
+     url('amb.jpg');
+   
+}
+
+ 
+/* .image .im
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* .ppp .p
+{
+
+    color: white;
+} */
+
+
